@@ -1,0 +1,2 @@
+source /Users/bhavya/esp/FreeRTOS_Weather/build/gdbinit/symbols
+source /Users/bhavya/esp/FreeRTOS_Weather/build/gdbinit/connect
