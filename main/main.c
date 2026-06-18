@@ -32,6 +32,18 @@ int16_t  dig_P7;
 int16_t  dig_P8;
 int16_t  dig_P9;
 
+void i2c_master_init(void);
+void bmp280_read_calibration_data(void);
+void vSensorTask(void *pvParameters);
+void vLoggerTask(void *pvParameters);
+
+typedef struct {
+    float temperature;
+    float pressure;
+} SensorData_t;
+
+QueueHandle_t sensorQueue; //declare the queue handle (globally)
+
 // Variable to share fine temperature structure with pressure math later
 int32_t t_fine; 
 
@@ -88,40 +100,6 @@ esp_err_t bmp280_read_registers(uint8_t start_reg, uint8_t *output_buffer, size_
     return ret;
 }
 
-void i2c_master_init(void);
-void bmp280_read_task(void *pvParameters);
-
-void app_main(void) {
-    // Initialize Hardware
-    gpio_reset_pin(LED_PIN);
-    gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
-    
-    // Initialize I2C Bus
-    i2c_master_init();
-    printf("I2C Initialized Successfully.\n");
-
-    // Create RTOS Tasks 
-    xTaskCreate(bmp280_read_task, "BMP280_Read", 3072, NULL, 1, NULL); 
-}
-
-// Function to configure the ESP32's I2C hardware controller
-void i2c_master_init(void) {
-    i2c_config_t conf = {
-        .mode = I2C_MODE_MASTER,
-        .sda_io_num = I2C_MASTER_SDA_IO,
-        .sda_pullup_en = GPIO_PULLUP_ENABLE,
-        .scl_io_num = I2C_MASTER_SCL_IO,
-        .scl_pullup_en = GPIO_PULLUP_ENABLE,
-        .master.clk_speed = I2C_MASTER_FREQ_HZ,
-    };
-    i2c_param_config(I2C_MASTER_NUM, &conf);
-    i2c_driver_install(I2C_MASTER_NUM, conf.mode, 0, 0, 0);
-}
-
-
-
-
-
 float bmp280_compensate_T(int32_t adc_T) {
     int32_t var1, var2;
     float T;
@@ -164,63 +142,76 @@ float bmp280_compensate_P(int32_t adc_P) {
     return (float)p / 256.0f; 
 }
 
+// Function to configure the ESP32's I2C hardware controller
+void i2c_master_init(void) {
+    i2c_config_t conf = {
+        .mode = I2C_MODE_MASTER,
+        .sda_io_num = I2C_MASTER_SDA_IO,
+        .sda_pullup_en = GPIO_PULLUP_ENABLE,
+        .scl_io_num = I2C_MASTER_SCL_IO,
+        .scl_pullup_en = GPIO_PULLUP_ENABLE,
+        .master.clk_speed = I2C_MASTER_FREQ_HZ,
+    };
+    i2c_param_config(I2C_MASTER_NUM, &conf);
+    i2c_driver_install(I2C_MASTER_NUM, conf.mode, 0, 0, 0);
+}
 
-void bmp280_read_task(void *pvParameters) {
+void bmp280_read_calibration_data(void) {
+    uint8_t p_calib_buf[24];
+    if (bmp280_read_registers(0x88, p_calib_buf, 24) == ESP_OK) {
+        dig_T1 = (uint16_t)((p_calib_buf[1] << 8) | p_calib_buf[0]);
+        dig_T2 = (int16_t)((p_calib_buf[3] << 8) | p_calib_buf[2]);
+        dig_T3 = (int16_t)((p_calib_buf[5] << 8) | p_calib_buf[4]);
 
-    // 1. CRITICAL: Allow the BMP280 hardware 100ms to fully boot up 
-    // before making any I2C write attempts!
-    vTaskDelay(pdMS_TO_TICKS(100));
+        dig_P1 = (uint16_t)(((uint16_t)p_calib_buf[7]  << 8) | p_calib_buf[6]);
+        dig_P2 = (int16_t) (((uint16_t)p_calib_buf[9]  << 8) | p_calib_buf[8]);
+        dig_P3 = (int16_t) (((uint16_t)p_calib_buf[11]  << 8) | p_calib_buf[10]);
+        dig_P4 = (int16_t) (((uint16_t)p_calib_buf[13]  << 8) | p_calib_buf[12]);
+        dig_P5 = (int16_t) (((uint16_t)p_calib_buf[15]  << 8) | p_calib_buf[14]);
+        dig_P6 = (int16_t) (((uint16_t)p_calib_buf[17] << 8) | p_calib_buf[16]);
+        dig_P7 = (int16_t) (((uint16_t)p_calib_buf[19] << 8) | p_calib_buf[18]);
+        dig_P8 = (int16_t) (((uint16_t)p_calib_buf[21] << 8) | p_calib_buf[20]);
+        dig_P9 = (int16_t) (((uint16_t)p_calib_buf[23] << 8) | p_calib_buf[22]);
+        printf("Calibration data loaded successfully.\n");
+    }
+    else {
+        printf("Failed to read calibration data!\n");
+    }
+
+}
+void app_main(void) {
+    // Initialize Hardware
+    gpio_reset_pin(LED_PIN);
+    gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
     
+    // Initialize I2C Bus
+    i2c_master_init();
+    printf("I2C Initialized Successfully.\n");
+
+    bmp280_read_calibration_data();
+
+    // Create a queue capable of containing 5 SensorData_t structures
+    sensorQueue = xQueueCreate(5, sizeof(SensorData_t));
+
+    if (sensorQueue == NULL) {
+        // Queue wasn't created! Handle error (e.g., print error and loop forever)
+        printf("Failed to create queue!\n");
+    }
+
+    // Create RTOS Tasks 
+    xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 2, NULL); 
+    xTaskCreate(vLoggerTask, "Logging task", 3072, NULL, 1, NULL); 
+}
+
+void vSensorTask(void *pvParameters) {
+    SensorData_t data;
+    uint8_t raw_data[6]; // Local array for raw bytes
+
     // Write 0x27 to register 0xF4 to wake up the sensor
     esp_err_t status = bmp280_write_register(0xF4, 0x2F);
     if (status == ESP_OK) {
     printf("Sensor woken up successfully!\n");
     }
-
-    // FIX: Wait 50ms for the sensor to finish its first internal startup measurement
-    vTaskDelay(pdMS_TO_TICKS(50));
-
-
-    // Array to hold the 6 bytes of calibration data
-    uint8_t temp_calib_buf[6];
-    // Read 6 bytes starting from register 0x88
-    if (bmp280_read_registers(0x88, temp_calib_buf, 6) == ESP_OK) {
-        // Bosch parameters are stored Little-Endian (LSB first, then MSB)
-        dig_T1 = (uint16_t)((temp_calib_buf[1] << 8) | temp_calib_buf[0]);
-        dig_T2 = (int16_t)((temp_calib_buf[3] << 8) | temp_calib_buf[2]);
-        dig_T3 = (int16_t)((temp_calib_buf[5] << 8) | temp_calib_buf[4]);
-        
-        printf("[BMP280] Pressure Calibration Loaded\n");
-    } else {
-        printf("[BMP280] Failed to read calibration data!\n");
-    }
-
-    // Array to hold the 18 bytes of calibration data
-    uint8_t p_calib_buf[18];
-    if (bmp280_read_registers(0x8E, p_calib_buf, 18) == ESP_OK) {
-        // Bosch parameters are stored Little-Endian (LSB first, then MSB)
-       // Force the compiler to respect the signed/unsigned boundaries
-       
-        dig_P1 = (uint16_t)(((uint16_t)p_calib_buf[1]  << 8) | p_calib_buf[0]);
-        dig_P2 = (int16_t) (((uint16_t)p_calib_buf[3]  << 8) | p_calib_buf[2]);
-        dig_P3 = (int16_t) (((uint16_t)p_calib_buf[5]  << 8) | p_calib_buf[4]);
-        dig_P4 = (int16_t) (((uint16_t)p_calib_buf[7]  << 8) | p_calib_buf[6]);
-        dig_P5 = (int16_t) (((uint16_t)p_calib_buf[9]  << 8) | p_calib_buf[8]);
-        dig_P6 = (int16_t) (((uint16_t)p_calib_buf[11] << 8) | p_calib_buf[10]);
-        dig_P7 = (int16_t) (((uint16_t)p_calib_buf[13] << 8) | p_calib_buf[12]);
-        dig_P8 = (int16_t) (((uint16_t)p_calib_buf[15] << 8) | p_calib_buf[14]);
-        dig_P9 = (int16_t) (((uint16_t)p_calib_buf[17] << 8) | p_calib_buf[16]);
-       
-    } else {
-        printf("[BMP280] Failed to read calibration data!\n");
-    }
- 
-
-    // Give the chip a tiny moment to stabilize its filters
-    vTaskDelay(pdMS_TO_TICKS(50));
-
-
-    uint8_t raw_data[6]; // Array to hold the 6 temperature and pressure bytes
 
     while(1) {
         // Read 6 bytes starting from the pressure register 0xF7
@@ -232,15 +223,43 @@ void bmp280_read_task(void *pvParameters) {
             
             int32_t adc_P = ((int32_t)raw_data[0] << 12) | ((int32_t)raw_data[1] << 4) | ((int32_t)raw_data[2] >> 4);
             
-            // RUN THE MATH!
-            float temperature = bmp280_compensate_T(adc_T);
+        data.temperature = bmp280_compensate_T(adc_T); 
+        data.pressure = bmp280_compensate_P(adc_P) /100.0 ;
         
-            float pressure = bmp280_compensate_P(adc_P);
 
-            printf("Temp: %.2f °C | Pressure: %.2f hPa\n", temperature, pressure / 100.0);
-        } else {
+        // &data means "send a copy of the data at this memory location"
+        // 0 means "if the queue is full, don't wait around, just keep moving"
+
+        if (xQueueSend(sensorQueue, &data, 0) == errQUEUE_FULL) {
+                printf("Queue full! Data dropped.\n");
+            }
+    }
+     else {
             printf("Failed to read data from sensor.\n");
         }
+
+        // original 2-second delay here
         vTaskDelay(pdMS_TO_TICKS(2000));
+
+    }
+}
+
+void vLoggerTask(void *pvParameters) {
+    // Create an empty "box" to hold incoming data from the queue
+    SensorData_t receivedData;
+
+    while(1) {
+        // xQueueReceive sits here and BLOCKS.
+        // portMAX_DELAY tells FreeRTOS: "Put this task completely to sleep. 
+        // Do not wake it up until an item lands in sensorQueue."
+        if (xQueueReceive(sensorQueue, &receivedData, portMAX_DELAY) == pdPASS) {
+            
+            // The microsecond data arrives, the task instantly wakes up here!
+            // Now we read out of our 'receivedData' box:
+            printf("--- New Telemetry Received via Queue ---\n");
+            printf("Temp: %.2f °C\n", receivedData.temperature);
+            printf("Pres: %.2f hPa\n\n", receivedData.pressure);
+            
+        } // After printing, the loop repeats, hits xQueueReceive, and goes right back to sleep.
     }
 }
