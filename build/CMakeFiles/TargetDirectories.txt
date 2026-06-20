@@ -816,6 +816,13 @@
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/wifi_provisioning/CMakeFiles/install.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/wifi_provisioning/CMakeFiles/install/local.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/wifi_provisioning/CMakeFiles/install/strip.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/__idf_chill-sam__ssd1306.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/edit_cache.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/rebuild_cache.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/list_install_components.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/install.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/install/local.dir
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/CMakeFiles/install/strip.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/CMakeFiles/__idf_main.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/CMakeFiles/edit_cache.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

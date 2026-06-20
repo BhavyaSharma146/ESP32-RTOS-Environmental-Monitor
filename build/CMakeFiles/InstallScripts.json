@@ -116,6 +116,7 @@
 		"/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/ulp/cmake_install.cmake",
 		"/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/usb/cmake_install.cmake",
 		"/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/wifi_provisioning/cmake_install.cmake",
+		"/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/cmake_install.cmake",
 		"/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/cmake_install.cmake"
 	],
 	"Parallel" : false

@@ -1,8 +1,10 @@
+#include <string.h> 
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/gpio.h"
-#include "driver/i2c.h"
+#include "driver/i2c_master.h"
+#include "ssd1306.h"
 
 #define LED_PIN       GPIO_NUM_2
 
@@ -10,7 +12,7 @@
 #define I2C_MASTER_SCL_IO           22    // GPIO pin for SCL
 #define I2C_MASTER_SDA_IO           21    // GPIO pin for SDA
 #define I2C_MASTER_NUM              I2C_NUM_0 
-#define I2C_MASTER_FREQ_HZ          100000  // 100kHz (Standard I2C speed)
+#define I2C_MASTER_FREQ_HZ          400000  // 400kHz
 
 #define BMP280_SENSOR_ADDR          0x76  // Standard I2C address for BMP280
 #define BMP280_ID_REG_ADDR          0xD0  // ID register address
@@ -36,68 +38,32 @@ void i2c_master_init(void);
 void bmp280_read_calibration_data(void);
 void vSensorTask(void *pvParameters);
 void vLoggerTask(void *pvParameters);
+void vDisplayTask(void *pvParameters);
 
 typedef struct {
     float temperature;
     float pressure;
 } SensorData_t;
 
-QueueHandle_t sensorQueue; //declare the queue handle (globally)
+QueueHandle_t sensorQueue; //queue for the logger to terminal
+QueueHandle_t displayQueue; // New queue for the OLED
+
+// Global handles for the new I2C framework
+i2c_master_bus_handle_t bus_handle;
+i2c_master_dev_handle_t bmp280_dev_handle;
 
 // Variable to share fine temperature structure with pressure math later
 int32_t t_fine; 
 
 esp_err_t bmp280_write_register(uint8_t reg_addr, uint8_t value){
-    // 1. Create the command link
-    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-    i2c_master_start(cmd);
-
-    // Write the sensor address + Write bit
-    i2c_master_write_byte(cmd, (BMP280_SENSOR_ADDR << 1) | I2C_MASTER_WRITE, true);
-
-    // 3. Send the internal register address you want to write to
-    i2c_master_write_byte(cmd, reg_addr, true);
-
-    // FIX: You must actually write the data value to the register!
-    i2c_master_write_byte(cmd, value, true);
-
-    i2c_master_stop(cmd);
-
-    // 5. Trigger the transmission and wait up to 1 second
-    esp_err_t ret = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, pdMS_TO_TICKS(1000));
-    i2c_cmd_link_delete(cmd); 
-    
-    return ret;
+    uint8_t write_buf[2] = {reg_addr, value};
+    // The new driver handles start, addresses, payload, and stop safely in one line!
+    return i2c_master_transmit(bmp280_dev_handle, write_buf, sizeof(write_buf), pdMS_TO_TICKS(1000));
 }
 
 esp_err_t bmp280_read_registers(uint8_t start_reg, uint8_t *output_buffer, size_t length) {
-    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-    i2c_master_start(cmd);
-    
-    // Phase 1: Tell the sensor WHICH register room we want to look at
-    i2c_master_write_byte(cmd, (BMP280_SENSOR_ADDR << 1) | I2C_MASTER_WRITE, true);
-    i2c_master_write_byte(cmd, start_reg, true);
-
-    // Phase 2: Restart and switch to READ mode
-    i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (BMP280_SENSOR_ADDR << 1) | I2C_MASTER_READ, true);
-
-    // Phase 3: Read 'length' number of bytes
-    if (length > 1) {
-        // Read all bytes up until the second-to-last byte with an ACK
-        for (size_t i = 0; i < length - 1; i++) {
-            i2c_master_read_byte(cmd, &output_buffer[i], I2C_MASTER_ACK);
-        }
-    }
-    // Read the absolute last byte with a NACK
-    i2c_master_read_byte(cmd, &output_buffer[length - 1], I2C_MASTER_NACK);
-    i2c_master_stop(cmd);
-
-    // Execute and clean up
-    esp_err_t ret = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, pdMS_TO_TICKS(1000));
-    i2c_cmd_link_delete(cmd);
-    
-    return ret;
+   // Writes the register address first, then reads back 'length' bytes directly
+    return i2c_master_transmit_receive(bmp280_dev_handle, &start_reg, 1, output_buffer, length, pdMS_TO_TICKS(1000));
 }
 
 float bmp280_compensate_T(int32_t adc_T) {
@@ -122,7 +88,6 @@ float bmp280_compensate_P(int32_t adc_P) {
     var2 = var2 + ((var1 * (int64_t)dig_P5) << 17);
     var2 = var2 + (((int64_t)dig_P4) << 35);
     var1 = ((var1 * var1 * (int64_t)dig_P3) >> 8) + ((var1 * (int64_t)dig_P2) << 12);
-    var1 = (((((int64_t)1) << 47) + var1)) * ((int64_t)dig_P1) >> 33;
     
     // FIX: Cast dig_P1 strictly to (uint64_t) so the compiler cannot sign-extend it to a negative number!
    var1 = ((((((int64_t)1) << 47) + var1)) * ((int64_t)(uint64_t)dig_P1)) >> 33;
@@ -142,18 +107,27 @@ float bmp280_compensate_P(int32_t adc_P) {
     return (float)p / 256.0f; 
 }
 
-// Function to configure the ESP32's I2C hardware controller
+// Function to configure the modern ESP32 I2C driver engine
 void i2c_master_init(void) {
-    i2c_config_t conf = {
-        .mode = I2C_MODE_MASTER,
-        .sda_io_num = I2C_MASTER_SDA_IO,
-        .sda_pullup_en = GPIO_PULLUP_ENABLE,
+    i2c_master_bus_config_t bus_config = {
+        .clk_source = I2C_CLK_SRC_DEFAULT,
+        .i2c_port = I2C_NUM_0,
         .scl_io_num = I2C_MASTER_SCL_IO,
-        .scl_pullup_en = GPIO_PULLUP_ENABLE,
-        .master.clk_speed = I2C_MASTER_FREQ_HZ,
+        .sda_io_num = I2C_MASTER_SDA_IO,
+        .glitch_ignore_cnt = 7,
+        .flags.enable_internal_pullup = true,
     };
-    i2c_param_config(I2C_MASTER_NUM, &conf);
-    i2c_driver_install(I2C_MASTER_NUM, conf.mode, 0, 0, 0);
+    // Allocate the unified software driver bus
+    ESP_ERROR_CHECK(i2c_new_master_bus(&bus_config, &bus_handle));
+
+    i2c_device_config_t dev_config = {
+        .dev_addr_length = I2C_ADDR_BIT_LEN_7,
+        .device_address = BMP280_SENSOR_ADDR,
+        .scl_speed_hz = I2C_MASTER_FREQ_HZ,
+    };
+
+    // Bind the BMP280 onto our unified bus
+    ESP_ERROR_CHECK(i2c_master_bus_add_device(bus_handle, &dev_config, &bmp280_dev_handle));
 }
 
 void bmp280_read_calibration_data(void) {
@@ -192,15 +166,26 @@ void app_main(void) {
 
     // Create a queue capable of containing 5 SensorData_t structures
     sensorQueue = xQueueCreate(5, sizeof(SensorData_t));
+    displayQueue = xQueueCreate(5, sizeof(SensorData_t)); // <--- ADD THIS LINE
 
-    if (sensorQueue == NULL) {
+    if (sensorQueue == NULL || displayQueue == NULL) {
         // Queue wasn't created! Handle error (e.g., print error and loop forever)
-        printf("Failed to create queue!\n");
+        printf("Failed to create queues!\n");
     }
 
     // Create RTOS Tasks 
     xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 2, NULL); 
-    xTaskCreate(vLoggerTask, "Logging task", 3072, NULL, 1, NULL); 
+    xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 5, NULL);
+    xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 1, NULL); 
+}
+
+void vLoggerTask(void *pvParameters) {
+    SensorData_t logData;
+    while(1) {
+        if (xQueueReceive(sensorQueue, &logData, portMAX_DELAY) == pdTRUE) {
+            printf("[LOG] Temp: %.2f C, Pres: %.1f hPa\n", logData.temperature, logData.pressure);
+        }
+    }
 }
 
 void vSensorTask(void *pvParameters) {
@@ -231,8 +216,12 @@ void vSensorTask(void *pvParameters) {
         // 0 means "if the queue is full, don't wait around, just keep moving"
 
         if (xQueueSend(sensorQueue, &data, 0) == errQUEUE_FULL) {
-                printf("Queue full! Data dropped.\n");
+                printf("[WARN] Logger Queue full! Data dropped.\n");
             }
+        
+        if (xQueueSend(displayQueue, &data, 0) == errQUEUE_FULL) {
+        printf("[WARN] Display Queue full! Data dropped.\n");
+        }      
     }
      else {
             printf("Failed to read data from sensor.\n");
@@ -244,22 +233,48 @@ void vSensorTask(void *pvParameters) {
     }
 }
 
-void vLoggerTask(void *pvParameters) {
-    // Create an empty "box" to hold incoming data from the queue
-    SensorData_t receivedData;
+void vDisplayTask(void *pvParameters) {
+    SensorData_t receivedDisplayData; 
+    char tempStr[20];
+    char presStr[20];
+
+    // Reverting to the official library initialization method which runs on driver_ng!
+    ssd1306_config_t cfg = {
+        .bus = SSD1306_I2C,
+        .width = 128,
+        .height = 64,
+        .fb = NULL,     
+        .fb_len = 0,
+        .iface.i2c = {
+            .port = I2C_NUM_0,       
+            .addr = 0x3C,            
+            .rst_gpio = GPIO_NUM_NC  
+        }
+    };
+
+    ssd1306_handle_t dev = NULL;
+    
+    // Now this library function works perfectly because your code is not resource-locking Port 0!
+    if (ssd1306_new_i2c(&cfg, &dev) != ESP_OK) {
+        printf("[ERROR] Failed to initialize SSD1306 Display!\n");
+        vTaskDelete(NULL);
+    }
 
     while(1) {
-        // xQueueReceive sits here and BLOCKS.
-        // portMAX_DELAY tells FreeRTOS: "Put this task completely to sleep. 
-        // Do not wake it up until an item lands in sensorQueue."
-        if (xQueueReceive(sensorQueue, &receivedData, portMAX_DELAY) == pdPASS) {
+        if (xQueueReceive(displayQueue, &receivedDisplayData, portMAX_DELAY) == pdTRUE) {
             
-            // The microsecond data arrives, the task instantly wakes up here!
-            // Now we read out of our 'receivedData' box:
-            printf("--- New Telemetry Received via Queue ---\n");
-            printf("Temp: %.2f °C\n", receivedData.temperature);
-            printf("Pres: %.2f hPa\n\n", receivedData.pressure);
+            snprintf(tempStr, sizeof(tempStr), "Temp: %.2f C", receivedDisplayData.temperature);
+            snprintf(presStr, sizeof(presStr), "Pres: %.1f hPa", receivedDisplayData.pressure);
             
-        } // After printing, the loop repeats, hits xQueueReceive, and goes right back to sleep.
+            ssd1306_clear(dev);
+            
+            ssd1306_draw_text(dev, 20, 4, "ENV MONITOR", true);
+            ssd1306_draw_line(dev, 0, 16, 127, 16, true); 
+            
+            ssd1306_draw_text(dev, 10, 28, tempStr, true);
+            ssd1306_draw_text(dev, 10, 44, presStr, true);
+            
+            ssd1306_display(dev);
+        }
     }
 }

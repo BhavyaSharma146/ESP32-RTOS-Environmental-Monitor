@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "bootloader",
-    "project_version":    "f0d98beb",
+    "project_version":    "f0d98beb-dirty",
     "project_path":       "/Users/bhavya/esp/esp-idf/components/bootloader/subproject",
     "idf_path":           "/Users/bhavya/esp/esp-idf",
     "build_dir":          "/Users/bhavya/esp/FreeRTOS_Weather/build/bootloader",
@@ -11,7 +11,7 @@
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
     "build_type":         "flash_app",
-    "git_revision":       "f0d98beb",
+    "git_revision":       "f0d98beb-dirty",
     "target":             "esp32",
     "rev":                "0",
     "min_rev":            "0",

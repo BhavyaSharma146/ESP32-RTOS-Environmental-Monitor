@@ -79,4 +79,5 @@
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/perfmon/libperfmon.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/spiffs/libspiffs.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/chill-sam__ssd1306/libchill-sam__ssd1306.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/libmain.a
