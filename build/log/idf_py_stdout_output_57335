@@ -1,0 +1,119 @@
+iting for connection...
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15660
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF f0d98beb-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 21 2026 19:56:14[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1a7b0h (108464) map[0m
+[0;32mI (142) esp_image: segment 1: paddr=0002a7d8 vaddr=3ffb0000 size=043bch ( 17340) load[0m
+[0;32mI (149) esp_image: segment 2: paddr=0002eb9c vaddr=40080000 size=0147ch (  5244) load[0m
+[0;32mI (151) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=85ce8h (548072) map[0m
+[0;32mI (344) esp_image: segment 4: paddr=000b5d10 vaddr=4008147c size=16b20h ( 92960) load[0m
+[0;32mI (393) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (393) boot: Disabling RNG early entropy source...[0m
+[0;32mI (405) cpu_start: Multicore app[0m
+[0;32mI (414) cpu_start: Pro cpu start user code[0m
+[0;32mI (414) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (414) app_init: Application information:[0m
+[0;32mI (417) app_init: Project name:     main[0m
+[0;32mI (421) app_init: App version:      9fbff1c-dirty[0m
+[0;32mI (427) app_init: Compile time:     Jun 21 2026 19:55:20[0m
+[0;32mI (433) app_init: ELF file SHA256:  6783386d9...[0m
+[0;32mI (438) app_init: ESP-IDF:          f0d98beb-dirty[0m
+[0;32mI (444) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (448) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (453) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (458) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (465) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (471) heap_init: At 3FFB8710 len 000278F0 (158 KiB): DRAM[0m
+[0;32mI (478) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (484) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (490) heap_init: At 40097F9C len 00008064 (32 KiB): IRAM[0m
+[0;32mI (498) spi_flash: detected chip: generic[0m
+[0;32mI (501) spi_flash: flash io: dio[0m
+[0;33mW (505) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (519) main_task: Started on CPU0[0m
+[0;32mI (529) main_task: Calling app_main()[0m
+[0;32mI (549) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (549) gpio: GPIO[21]| InputEn: 1| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (559) gpio: GPIO[22]| InputEn: 1| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+I2C Initialized Successfully.
+Calibration data loaded successfully.
+[0;32mI (589) wifi:wifi driver task: 3ffc0cb8, prio:23, stack:6656, core=0[0m
+[0;32mI (599) wifi:wifi firmware version: c57d32e[0m
+[0;32mI (599) wifi:wifi certification version: v7.0[0m
+[0;32mI (599) wifi:config NVS flash: enabled[0m
+[0;32mI (599) wifi:config nano formating: disabled[0m
+[0;32mI (599) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (609) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (609) wifi:Init management short buffer num: 32[0m
+[0;32mI (619) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (619) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (619) wifi:Init static rx buffer num: 10[0m
+[0;32mI (629) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (629) wifi_init: rx ba win: 6[0m
+[0;32mI (639) wifi_init: accept mbox: 6[0m
+[0;32mI (639) wifi_init: tcpip mbox: 32[0m
+[0;32mI (639) wifi_init: udp mbox: 6[0m
+[0;32mI (649) wifi_init: tcp mbox: 6[0m
+[0;32mI (649) wifi_init: tcp tx win: 5760[0m
+[0;32mI (659) wifi_init: tcp rx win: 5760[0m
+[0;32mI (659) wifi_init: tcp mss: 1440[0m
+[0;32mI (659) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (669) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (669) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+[0;32mI (759) wifi:mode : sta (b0:cb:d8:0d:03:78)[0m
+[0;32mI (759) wifi:enable tsf[0m
+wifi_init_sta finished. Waiting for connection...
+[0;32mI (1679) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1679) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1689) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1699) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (1909) wifi:<ba-add>idx:0 (ifx:0, c0:06:c3:78:b3:31), tid:0, ssn:1, winSize:64[0m
+[0;32mI (1909) wifi:connected with ACT102632443964, aid = 6, channel 6, BW20, bssid = c0:06:c3:78:b3:31[0m
+[0;32mI (1909) wifi:security: WPA2-PSK, phy: bgn, rssi: -65, cipher(pairwise:0x3, group:0x3), pmf:0[0m
+[0;32mI (1929) wifi:pm start, type: 1[0m
+
+[0;32mI (1929) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (1929) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3439) esp_netif_handlers: sta ip: 192.168.0.114, mask: 255.255.255.0, gw: 192.168.0.1[0m
+[WIFI] Connected! Got IP: 192.168.0.114
+[WIFI] Successfully connected to SSID: ACT102632443964
+Sensor woken up successfully!
+Wi-Fi Task Started. Waiting for data...
+[LOG] Temp: 28.62 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.62
+[0;32mI (3449) main_task: Returned from app_main()[0m
+[LOG] Temp: 28.62 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.62
+[LOG] Temp: 28.62 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.62
+[LOG] Temp: 28.62 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.62
+[LOG] Temp: 28.60 C, Pres: 906.4 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.60
+[LOG] Temp: 28.59 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.59
+[LOG] Temp: 28.61 C, Pres: 906.5 hPa
+[WIFI-PREVIEW] Received data from queue! Temp: 28.61

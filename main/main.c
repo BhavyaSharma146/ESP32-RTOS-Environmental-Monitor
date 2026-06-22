@@ -6,6 +6,11 @@
 #include "driver/i2c_master.h"
 #include "ssd1306.h"
 
+#include "esp_wifi.h"
+#include "esp_event.h"
+#include "nvs_flash.h"
+#include "freertos/event_groups.h"
+
 #define LED_PIN       GPIO_NUM_2
 
 // Define I2C Pins for ESP32
@@ -39,17 +44,32 @@ void bmp280_read_calibration_data(void);
 void vSensorTask(void *pvParameters);
 void vLoggerTask(void *pvParameters);
 void vDisplayTask(void *pvParameters);
+void vWifiTask(void *pvParameters);
 
 typedef struct {
     float temperature;
     float pressure;
 } SensorData_t;
 
+//QueueHandle_t is a variable type that acts as a reference or "pointer" to a specific Queue
 QueueHandle_t sensorQueue; //queue for the logger to terminal
 QueueHandle_t displayQueue; // New queue for the OLED
+QueueHandle_t wifiQueue; //New queue for wifi
+
+static EventGroupHandle_t s_wifi_event_group; //FreeRTOS Event Group
+
+#define WIFI_CONNECTED_BIT BIT0
+#define WIFI_FAIL_BIT      BIT1
+
+// Hardcode your credentials here temporarily for testing, or use Kconfig later
+#define WIFI_SSID      "ACT102632443964"
+#define WIFI_PASS      "33659363"
+#define MAXIMUM_RETRY  5
+
+static int s_retry_num = 0;
 
 // Global handles for the new I2C framework
-i2c_master_bus_handle_t bus_handle;
+i2c_master_bus_handle_t bus_handle; //i2c_master_bus_handle_t is a specific variable type that holds a reference (or pointer) to an entire initialized I2C bus.
 i2c_master_dev_handle_t bmp280_dev_handle;
 
 // Variable to share fine temperature structure with pressure math later
@@ -153,7 +173,99 @@ void bmp280_read_calibration_data(void) {
     }
 
 }
+
+static void wifi_event_handler(void* arg, esp_event_base_t event_base,
+                                int32_t event_id, void* event_data)
+{
+    if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START) {
+        esp_wifi_connect();
+    } else if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_DISCONNECTED) {
+        if (s_retry_num < MAXIMUM_RETRY) {
+            esp_wifi_connect();
+            s_retry_num++;
+            printf("[WIFI] Retrying connection to the AP...\n");
+        } else {
+            xEventGroupSetBits(s_wifi_event_group, WIFI_FAIL_BIT);
+            printf("[WIFI] Maximum retries reached. Failed to connect to the AP completely.\n");
+        }
+    } else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
+        ip_event_got_ip_t* event = (ip_event_got_ip_t*) event_data;
+        printf("[WIFI] Connected! Got IP: " IPSTR "\n", IP2STR(&event->ip_info.ip));
+        s_retry_num = 0;
+        xEventGroupSetBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
+    }
+}
+
+void wifi_init_sta(void)
+{
+    s_wifi_event_group = xEventGroupCreate();
+
+    // Initialize the underlying TCP/IP stack
+    ESP_ERROR_CHECK(esp_netif_init());
+
+    // Create the default system event loop
+    ESP_ERROR_CHECK(esp_event_loop_create_default());
+    esp_netif_create_default_wifi_sta();
+
+    // Initialize Wi-Fi driver configuration allocation
+    wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+    ESP_ERROR_CHECK(esp_wifi_init(&cfg));
+
+    // Register our event handler for Wi-Fi and IP events
+    esp_event_handler_instance_t instance_any_id;
+    esp_event_handler_instance_t instance_got_ip;
+    ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT,
+                                                        ESP_EVENT_ANY_ID,
+                                                        &wifi_event_handler,
+                                                        NULL,
+                                                        &instance_any_id));
+    ESP_ERROR_CHECK(esp_event_handler_instance_register(IP_EVENT,
+                                                        IP_EVENT_STA_GOT_IP,
+                                                        &wifi_event_handler,
+                                                        NULL,
+                                                        &instance_got_ip));
+
+    // Configure credentials
+    wifi_config_t wifi_config = {
+        .sta = {
+            .ssid = WIFI_SSID,
+            .password = WIFI_PASS,
+            .threshold.authmode = WIFI_AUTH_WPA2_PSK,
+        },
+    };
+
+    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
+    ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config));
+    ESP_ERROR_CHECK(esp_wifi_start());
+
+    printf("wifi_init_sta finished. Waiting for connection...\n");
+
+    // Block here using our event group until connection happens or fails
+    EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group,
+            WIFI_CONNECTED_BIT | WIFI_FAIL_BIT,
+            pdFALSE,
+            pdFALSE,
+            portMAX_DELAY);
+            //portMAX_DELAY makes sure that this code is woken up only if s_wifi_event_group is changed by callback function. this acts as a wall
+
+    if (bits & WIFI_CONNECTED_BIT) {
+        printf("[WIFI] Successfully connected to SSID: %s\n", WIFI_SSID);
+    } else if (bits & WIFI_FAIL_BIT) {
+        printf("[WIFI] Failed to connect to SSID: %s\n", WIFI_SSID);
+    } else {
+        printf("[WIFI] UNEXPECTED EVENT\n");
+    }
+}
+
 void app_main(void) {
+    // Initialize NVS (Required for Wi-Fi configurations)
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+      ESP_ERROR_CHECK(nvs_flash_erase());
+      ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(ret);
+
     // Initialize Hardware
     gpio_reset_pin(LED_PIN);
     gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
@@ -164,10 +276,12 @@ void app_main(void) {
 
     bmp280_read_calibration_data();
 
+    wifi_init_sta(); // Call Wi-Fi initialization function
+
     // Create a queue capable of containing 5 SensorData_t structures
     sensorQueue = xQueueCreate(5, sizeof(SensorData_t));
     displayQueue = xQueueCreate(5, sizeof(SensorData_t)); // <--- ADD THIS LINE
-
+    wifiQueue = xQueueCreate(5, sizeof(SensorData_t));
     if (sensorQueue == NULL || displayQueue == NULL) {
         // Queue wasn't created! Handle error (e.g., print error and loop forever)
         printf("Failed to create queues!\n");
@@ -177,11 +291,12 @@ void app_main(void) {
     xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 2, NULL); 
     xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 5, NULL);
     xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 1, NULL); 
+    xTaskCreate(vWifiTask, "WifiTask", 4096, NULL, 3, NULL); 
 }
 
 void vLoggerTask(void *pvParameters) {
     SensorData_t logData;
-    while(1) {
+    while(1) {//portMAX_DELAY ensures this if statement executes only if new data arrives in the queue
         if (xQueueReceive(sensorQueue, &logData, portMAX_DELAY) == pdTRUE) {
             printf("[LOG] Temp: %.2f C, Pres: %.1f hPa\n", logData.temperature, logData.pressure);
         }
@@ -221,20 +336,23 @@ void vSensorTask(void *pvParameters) {
         
         if (xQueueSend(displayQueue, &data, 0) == errQUEUE_FULL) {
         printf("[WARN] Display Queue full! Data dropped.\n");
-        }      
-    }
-     else {
-            printf("Failed to read data from sensor.\n");
         }
-
-        // original 2-second delay here
-        vTaskDelay(pdMS_TO_TICKS(2000));
-
+        if (xQueueSend(wifiQueue, &data, 0) == errQUEUE_FULL) {
+        printf("[WARN] Wifi-Queue full! Data dropped.\n");
+        }       
     }
-}
+    else {
+            printf("Failed to read data from sensor.\n");
+        }     
+    
+    // original 2-second delay here
+        vTaskDelay(pdMS_TO_TICKS(2000));
+    }
+    }
+
 
 void vDisplayTask(void *pvParameters) {
-    SensorData_t receivedDisplayData; 
+    SensorData_t receivedDisplayData; //holds unpacked numbers from the queue
     char tempStr[20];
     char presStr[20];
 
@@ -252,12 +370,13 @@ void vDisplayTask(void *pvParameters) {
         }
     };
 
-    ssd1306_handle_t dev = NULL;
+    ssd1306_handle_t dev = NULL; //reference pointer that you will pass to all future display functions so they know which physical display to talk to
     
     // Now this library function works perfectly because your code is not resource-locking Port 0!
     if (ssd1306_new_i2c(&cfg, &dev) != ESP_OK) {
         printf("[ERROR] Failed to initialize SSD1306 Display!\n");
         vTaskDelete(NULL);
+        //Passing NULL tells FreeRTOS to delete the current running task and free up its allocated RAM.
     }
 
     while(1) {
@@ -275,6 +394,23 @@ void vDisplayTask(void *pvParameters) {
             ssd1306_draw_text(dev, 10, 44, presStr, true);
             
             ssd1306_display(dev);
+            //All the previous draw functions only modified the ESP32's local RAM buffer. This line takes that entire image buffer and pushes it across the physical I2C wires to the physical OLED screen all at once
+        }
+    }
+}
+
+void vWifiTask(void *pvParameters) {
+    SensorData_t receivedNetData;
+
+    printf("Wi-Fi Task Started. Waiting for data...\n");
+
+    while(1) {
+        // Block until sensor data arrives in the wifiQueue
+        if (xQueueReceive(wifiQueue, &receivedNetData, portMAX_DELAY) == pdTRUE) {
+            // Placeholder: Prove that the task successfully intercepts the data stream
+            printf("[WIFI-PREVIEW] Received data from queue! Temp: %.2f\n", receivedNetData.temperature);
+            
+            // Future network dispatch code will sit right here!
         }
     }
 }
