@@ -1,7 +1,6 @@
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/xtensa/libxtensa.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_pm/libesp_pm.a
-/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/libmbedtls.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_app_format/libesp_app_format.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/app_update/libapp_update.a

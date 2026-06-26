@@ -1,7 +1,6 @@
 $<TARGET_FILE:__idf_xtensa>
 $<TARGET_FILE:__idf_esp_driver_gpio>
 $<TARGET_FILE:__idf_esp_pm>
-$<TARGET_FILE:__idf_mbedtls>
 $<TARGET_FILE:__idf_esp_app_format>
 $<TARGET_FILE:__idf_esp_bootloader_format>
 $<TARGET_FILE:__idf_app_update>

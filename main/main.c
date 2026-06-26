@@ -11,6 +11,8 @@
 #include "nvs_flash.h"
 #include "freertos/event_groups.h"
 
+#include "esp_http_client.h"
+
 #define LED_PIN       GPIO_NUM_2
 
 // Define I2C Pins for ESP32
@@ -62,7 +64,7 @@ static EventGroupHandle_t s_wifi_event_group; //FreeRTOS Event Group
 #define WIFI_FAIL_BIT      BIT1
 
 // Hardcode your credentials here temporarily for testing, or use Kconfig later
-#define WIFI_SSID      "ACT102632443964"
+#define WIFI_SSID      "ACT102632443964_EXT"
 #define WIFI_PASS      "33659363"
 #define MAXIMUM_RETRY  5
 
@@ -230,7 +232,7 @@ void wifi_init_sta(void)
         .sta = {
             .ssid = WIFI_SSID,
             .password = WIFI_PASS,
-            .threshold.authmode = WIFI_AUTH_WPA2_PSK,
+            .threshold.authmode = WIFI_AUTH_WPA_WPA2_PSK,
         },
     };
 
@@ -276,8 +278,6 @@ void app_main(void) {
 
     bmp280_read_calibration_data();
 
-    wifi_init_sta(); // Call Wi-Fi initialization function
-
     // Create a queue capable of containing 5 SensorData_t structures
     sensorQueue = xQueueCreate(5, sizeof(SensorData_t));
     displayQueue = xQueueCreate(5, sizeof(SensorData_t)); // <--- ADD THIS LINE
@@ -288,10 +288,10 @@ void app_main(void) {
     }
 
     // Create RTOS Tasks 
-    xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 2, NULL); 
-    xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 5, NULL);
-    xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 1, NULL); 
-    xTaskCreate(vWifiTask, "WifiTask", 4096, NULL, 3, NULL); 
+    xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 1, NULL); 
+    xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 2, NULL);
+    xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 3, NULL); 
+    xTaskCreate(vWifiTask, "WifiTask", 4096, NULL, 4, NULL); 
 }
 
 void vLoggerTask(void *pvParameters) {
@@ -312,6 +312,7 @@ void vSensorTask(void *pvParameters) {
     if (status == ESP_OK) {
     printf("Sensor woken up successfully!\n");
     }
+    vTaskDelay(pdMS_TO_TICKS(250)); // ADD THIS — give sensor time to take first measurement
 
     while(1) {
         // Read 6 bytes starting from the pressure register 0xF7
@@ -345,8 +346,8 @@ void vSensorTask(void *pvParameters) {
             printf("Failed to read data from sensor.\n");
         }     
     
-    // original 2-second delay here
-        vTaskDelay(pdMS_TO_TICKS(2000));
+    // original 15-second delay here
+        vTaskDelay(pdMS_TO_TICKS(15000));
     }
     }
 
@@ -401,16 +402,49 @@ void vDisplayTask(void *pvParameters) {
 
 void vWifiTask(void *pvParameters) {
     SensorData_t receivedNetData;
+    char url_buffer[256];
+
+    wifi_init_sta(); // Call Wi-Fi initialization function
 
     printf("Wi-Fi Task Started. Waiting for data...\n");
 
     while(1) {
-        // Block until sensor data arrives in the wifiQueue
+        // 1. Block and wait for data from the sensor queue
         if (xQueueReceive(wifiQueue, &receivedNetData, portMAX_DELAY) == pdTRUE) {
-            // Placeholder: Prove that the task successfully intercepts the data stream
-            printf("[WIFI-PREVIEW] Received data from queue! Temp: %.2f\n", receivedNetData.temperature);
+            printf("[WIFI] Processing data for cloud send... Temp: %.2f\n", receivedNetData.temperature);
             
-            // Future network dispatch code will sit right here!
+            // 2. Format the URL with your data. 
+            // Replace 'YOUR_API_KEY' with your actual Thingspeak write key later!
+            snprintf(url_buffer, sizeof(url_buffer), 
+                     "http://api.thingspeak.com/update?api_key=PLGODE06HSYV5SII&field1=%.2f&field2=%.2f",receivedNetData.temperature, receivedNetData.pressure);
+
+            // 3. Configure the HTTP client options
+            esp_http_client_config_t config = {
+                .url = url_buffer,
+                .method = HTTP_METHOD_GET,
+                .timeout_ms = 10000,
+            };
+
+            // 4. Initialize the client session
+            esp_http_client_handle_t client = esp_http_client_init(&config);
+
+            if (client != NULL) {
+                // 5. Execute the network request (this blocks briefly while sending packets)
+                esp_err_t err = esp_http_client_perform(client);
+
+                if (err == ESP_OK) {
+                    // Check HTTP Status Code (200 means success)
+                    int status_code = esp_http_client_get_status_code(client);
+                    printf("[WIFI] HTTP GET Status = %d\n", status_code);
+                } else {
+                    printf("[WIFI] HTTP GET request failed: %s\n", esp_err_to_name(err));
+                }
+
+                // 6. CRITICAL RTOS STEP: Always clean up memory to prevent a memory leak!
+                esp_http_client_cleanup(client);
+            } else {
+                printf("[WIFI] Failed to initialize HTTP client configuration.\n");
+            }
         }
     }
 }

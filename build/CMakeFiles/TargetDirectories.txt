@@ -49,8 +49,6 @@
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_pm/CMakeFiles/install.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_pm/CMakeFiles/install/local.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/esp_pm/CMakeFiles/install/strip.dir
-/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir
-/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/CMakeFiles/custom_bundle.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/CMakeFiles/edit_cache.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/CMakeFiles/rebuild_cache.dir
 /Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/CMakeFiles/list_install_components.dir

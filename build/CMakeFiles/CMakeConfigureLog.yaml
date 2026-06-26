@@ -33,8 +33,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -50,7 +48,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/git"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/git"
@@ -62,8 +59,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/git"
       - "/Users/bhavya/esp/esp-idf/tools/git"
       - "/Users/bhavya/anaconda3/bin/git"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
       - "/opt/homebrew/bin/git"
       - "/opt/homebrew/sbin/git"
       - "/usr/local/bin/git"
@@ -81,8 +76,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -96,12 +89,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -132,8 +122,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -149,7 +137,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/uname"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/uname"
@@ -161,8 +148,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/uname"
       - "/Users/bhavya/esp/esp-idf/tools/uname"
       - "/Users/bhavya/anaconda3/bin/uname"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/usr/local/bin/uname"
@@ -180,8 +165,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -195,12 +178,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -242,8 +222,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -259,7 +237,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/ninja-build"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/ninja"
@@ -291,12 +268,6 @@ events:
       - "/Users/bhavya/anaconda3/bin/ninja-build"
       - "/Users/bhavya/anaconda3/bin/ninja"
       - "/Users/bhavya/anaconda3/bin/samu"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "/opt/homebrew/bin/ninja-build"
     found: "/opt/homebrew/bin/ninja"
     search_context:
@@ -311,8 +282,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -326,12 +295,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -363,8 +329,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -380,7 +344,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
@@ -399,8 +362,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -414,12 +375,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -460,8 +418,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -475,12 +431,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -536,8 +489,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -553,7 +504,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-ar"
     search_context:
       ENV{PATH}:
@@ -567,8 +517,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -582,12 +530,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -620,8 +565,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -637,7 +580,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib"
     search_context:
       ENV{PATH}:
@@ -651,8 +593,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -666,12 +606,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -704,8 +641,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -721,7 +656,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-strip"
     search_context:
       ENV{PATH}:
@@ -735,8 +669,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -750,12 +682,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -788,8 +717,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -805,7 +732,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-ld"
     search_context:
       ENV{PATH}:
@@ -819,8 +745,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -834,12 +758,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -872,8 +793,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -889,7 +808,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-nm"
     search_context:
       ENV{PATH}:
@@ -903,8 +821,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -918,12 +834,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -956,8 +869,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -973,7 +884,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump"
     search_context:
       ENV{PATH}:
@@ -987,8 +897,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1002,12 +910,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1040,8 +945,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1057,7 +960,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-objcopy"
     search_context:
       ENV{PATH}:
@@ -1071,8 +973,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1086,12 +986,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1124,8 +1021,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1141,7 +1036,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-readelf"
     search_context:
       ENV{PATH}:
@@ -1155,8 +1049,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1170,12 +1062,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1208,8 +1097,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1225,7 +1112,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-dlltool"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-dlltool"
@@ -1237,8 +1123,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-dlltool"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-dlltool"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-dlltool"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-dlltool"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/bin/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-dlltool"
       - "/usr/local/bin/xtensa-esp32-elf-dlltool"
@@ -1254,7 +1138,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-dlltool"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-dlltool"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-dlltool"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-dlltool"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/dlltool"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/dlltool"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/dlltool"
@@ -1265,8 +1148,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/dlltool"
       - "/Users/bhavya/esp/esp-idf/tools/dlltool"
       - "/Users/bhavya/anaconda3/bin/dlltool"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/usr/local/bin/dlltool"
@@ -1282,7 +1163,6 @@ events:
       - "/Library/TeX/texbin/dlltool"
       - "/opt/anaconda3/bin/dlltool"
       - "/opt/anaconda3/condabin/dlltool"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -1296,8 +1176,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1311,12 +1189,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1349,8 +1224,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1366,7 +1239,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-addr2line"
     search_context:
       ENV{PATH}:
@@ -1380,8 +1252,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1395,12 +1265,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1433,8 +1300,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1450,7 +1315,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-tapi"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-tapi"
@@ -1462,8 +1326,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-tapi"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-tapi"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-tapi"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-tapi"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/bin/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-tapi"
       - "/usr/local/bin/xtensa-esp32-elf-tapi"
@@ -1479,7 +1341,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-tapi"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-tapi"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-tapi"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-tapi"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/tapi"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/tapi"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/tapi"
@@ -1490,8 +1351,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/tapi"
       - "/Users/bhavya/esp/esp-idf/tools/tapi"
       - "/Users/bhavya/anaconda3/bin/tapi"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -1507,7 +1366,6 @@ events:
       - "/Library/TeX/texbin/tapi"
       - "/opt/anaconda3/bin/tapi"
       - "/opt/anaconda3/condabin/tapi"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1521,8 +1379,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1536,12 +1392,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1576,8 +1429,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1593,7 +1444,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-13.2"
@@ -1605,8 +1455,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-13.2"
@@ -1622,7 +1470,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-13"
@@ -1633,8 +1480,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-13"
@@ -1650,7 +1495,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar13"
@@ -1661,8 +1505,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar13"
@@ -1678,7 +1520,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar13"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1692,8 +1533,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1707,12 +1546,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1747,8 +1583,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1764,7 +1598,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-13.2"
@@ -1776,8 +1609,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
@@ -1793,7 +1624,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-13"
@@ -1804,8 +1634,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-13"
@@ -1821,7 +1649,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib13"
@@ -1832,8 +1659,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib13"
@@ -1849,7 +1674,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib13"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1863,8 +1687,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1878,12 +1700,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1915,8 +1734,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1932,7 +1749,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-g++"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-g++"
@@ -1951,8 +1767,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1966,12 +1780,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2012,8 +1823,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2027,12 +1836,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2090,8 +1896,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2107,7 +1911,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-13.2"
@@ -2119,8 +1922,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-13.2"
@@ -2136,7 +1937,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13.2"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-13.2"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-13.2"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-13"
@@ -2147,8 +1947,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-13"
@@ -2164,7 +1962,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-13"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar13"
@@ -2175,8 +1972,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar13"
@@ -2192,7 +1987,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar13"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -2206,8 +2000,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2221,12 +2013,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2261,8 +2050,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2278,7 +2065,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-13.2"
@@ -2290,8 +2076,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
@@ -2307,7 +2091,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-13.2"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-13.2"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-13"
@@ -2318,8 +2101,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-13"
@@ -2335,7 +2116,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-13"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib13"
@@ -2346,8 +2126,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib13"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib13"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib13"
@@ -2363,7 +2141,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib13"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib13"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib13"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -2377,8 +2154,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2392,12 +2167,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2429,8 +2201,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2446,7 +2216,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
@@ -2465,8 +2234,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2480,12 +2247,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -2534,8 +2298,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2551,7 +2313,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
@@ -2563,8 +2324,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-"
@@ -2580,7 +2339,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-"
@@ -2591,8 +2349,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ar-"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ar-"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ar-"
@@ -2608,7 +2364,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -2622,8 +2377,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2637,12 +2390,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2677,8 +2427,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/"
       - "/Users/bhavya/esp/esp-idf/tools/"
       - "/Users/bhavya/anaconda3/bin/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2694,7 +2442,6 @@ events:
       - "/Library/TeX/texbin/"
       - "/opt/anaconda3/bin/"
       - "/opt/anaconda3/condabin/"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
@@ -2706,8 +2453,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-"
@@ -2723,7 +2468,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-"
@@ -2734,8 +2478,6 @@ events:
       - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/esp/esp-idf/tools/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/bhavya/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/xtensa-esp32-elf-gcc-ranlib-"
       - "/usr/local/bin/xtensa-esp32-elf-gcc-ranlib-"
@@ -2751,7 +2493,6 @@ events:
       - "/Library/TeX/texbin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/anaconda3/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/anaconda3/condabin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
     found: "/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -2765,8 +2506,6 @@ events:
         - "/Users/bhavya/.espressif/python_env/idf5.3_py3.14_env/bin"
         - "/Users/bhavya/esp/esp-idf/tools"
         - "/Users/bhavya/anaconda3/bin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2780,12 +2519,9 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/X11/bin"
         - "/Library/TeX/texbin"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/bhavya/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/bhavya/anaconda3/bin"
         - "/opt/anaconda3/bin"
         - "/opt/anaconda3/condabin"
-        - "/Users/bhavya/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2796,8 +2532,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-JFGpNy"
-      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-JFGpNy"
+      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-0dUWt6"
+      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-0dUWt6"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
@@ -2808,10 +2544,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-JFGpNy'
+        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-0dUWt6'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0377e
-        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_28f0b
+        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -2819,8 +2555,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0377e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccs8y8xa.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_28f0b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccicnwP0.s
         GNU C17 (crosstool-NG esp-13.2.0_20250707) version 13.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2837,12 +2573,12 @@ events:
          /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 37d6362103650078d5e76391992f543f
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccs8y8xa.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccicnwP0.s
         COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -o cmTC_0377e   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -o cmTC_28f0b   && :
         Using built-in specs.
         COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper
@@ -2853,9 +2589,9 @@ events:
         gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) 
         COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_0377e' '-dumpdir' 'cmTC_0377e.'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccSJjPiN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_0377e /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_0377e' '-dumpdir' 'cmTC_0377e.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_28f0b' '-dumpdir' 'cmTC_28f0b.'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccYeksDZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_28f0b /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_28f0b' '-dumpdir' 'cmTC_28f0b.'
         
       exitCode: 0
   -
@@ -2890,10 +2626,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-JFGpNy']
+        ignore line: [Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-0dUWt6']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0377e]
-        ignore line: [[1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_28f0b]
+        ignore line: [[1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -2901,8 +2637,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/']
-        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0377e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccs8y8xa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/']
+        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_28f0b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccicnwP0.s]
         ignore line: [GNU C17 (crosstool-NG esp-13.2.0_20250707) version 13.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -2919,12 +2655,12 @@ events:
         ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 37d6362103650078d5e76391992f543f]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/']
-        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccs8y8xa.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/']
+        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccicnwP0.s]
         ignore line: [COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -o cmTC_0377e   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -o cmTC_28f0b   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper]
@@ -2935,13 +2671,13 @@ events:
         ignore line: [gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) ]
         ignore line: [COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_0377e' '-dumpdir' 'cmTC_0377e.']
-        link line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccSJjPiN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_0377e /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_28f0b' '-dumpdir' 'cmTC_28f0b.']
+        link line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccYeksDZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_28f0b /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccSJjPiN.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccYeksDZ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -2950,7 +2686,7 @@ events:
           arg [--sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0377e] ==> ignore
+          arg [cmTC_28f0b] ==> ignore
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o]
@@ -2962,7 +2698,7 @@ events:
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_0377e.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_28f0b.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -2970,7 +2706,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_0377e' '-dumpdir' 'cmTC_0377e.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_28f0b' '-dumpdir' 'cmTC_28f0b.']
         ignore line: []
         ignore line: []
         collapse obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
@@ -3002,8 +2738,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-vLiBQj"
-      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-vLiBQj"
+      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-4l6czo"
+      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-4l6czo"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3015,10 +2751,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-vLiBQj'
+        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-4l6czo'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8b20e
-        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f36cf
+        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3026,8 +2762,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8b20e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccU8bPMl.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f36cf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccPzvOrZ.s
         GNU C++17 (crosstool-NG esp-13.2.0_20250707) version 13.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3050,12 +2786,12 @@ events:
          /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: d6f736f3ca37b3c4f4afd378f34346af
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccU8bPMl.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccPzvOrZ.s
         COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8b20e   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f36cf   && :
         Using built-in specs.
         COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper
@@ -3066,9 +2802,9 @@ events:
         gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) 
         COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_8b20e' '-dumpdir' 'cmTC_8b20e.'
-         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccuKNkW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_8b20e /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_8b20e' '-dumpdir' 'cmTC_8b20e.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_f36cf' '-dumpdir' 'cmTC_f36cf.'
+         /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccOB0K7l.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_f36cf /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_f36cf' '-dumpdir' 'cmTC_f36cf.'
         
       exitCode: 0
   -
@@ -3109,10 +2845,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-vLiBQj']
+        ignore line: [Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-4l6czo']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8b20e]
-        ignore line: [[1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f36cf]
+        ignore line: [[1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3120,8 +2856,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/']
-        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8b20e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccU8bPMl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/']
+        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/ -isysroot /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f36cf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccPzvOrZ.s]
         ignore line: [GNU C++17 (crosstool-NG esp-13.2.0_20250707) version 13.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3144,12 +2880,12 @@ events:
         ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d6f736f3ca37b3c4f4afd378f34346af]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/']
-        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccU8bPMl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/']
+        ignore line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccPzvOrZ.s]
         ignore line: [COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8b20e   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -v CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f36cf   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper]
@@ -3160,13 +2896,13 @@ events:
         ignore line: [gcc version 13.2.0 (crosstool-NG esp-13.2.0_20250707) ]
         ignore line: [COMPILER_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_8b20e' '-dumpdir' 'cmTC_8b20e.']
-        link line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccuKNkW5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_8b20e /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_f36cf' '-dumpdir' 'cmTC_f36cf.']
+        link line: [ /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2 -plugin /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so -plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccOB0K7l.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_f36cf /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0 -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/13.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccuKNkW5.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/3x/4nbqdnxx4y7866hrsk09jk540000gq/T//ccOB0K7l.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3175,7 +2911,7 @@ events:
           arg [--sysroot=/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8b20e] ==> ignore
+          arg [cmTC_f36cf] ==> ignore
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crti.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtbegin.o]
@@ -3187,7 +2923,7 @@ events:
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_8b20e.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_f36cf.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3197,7 +2933,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtend.o]
           arg [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o] ==> obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/esp32/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_8b20e' '-dumpdir' 'cmTC_8b20e.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'cmTC_f36cf' '-dumpdir' 'cmTC_f36cf.']
         ignore line: []
         ignore line: []
         collapse obj [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/lib/esp32/crt0.o] ==> [/Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/xtensa-esp-elf/lib/esp32/crt0.o]
@@ -3230,8 +2966,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-G61YE7"
-      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-G61YE7"
+      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-jdc2RX"
+      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-jdc2RX"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
@@ -3242,17 +2978,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-G61YE7'
+        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-jdc2RX'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ca9e3
-        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_ca9e3.dir/src.c.obj -c /Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-G61YE7/src.c
-        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  CMakeFiles/cmTC_ca9e3.dir/src.c.obj -o cmTC_ca9e3   && :
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_ca9e3.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d921c
+        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_d921c.dir/src.c.obj -c /Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-jdc2RX/src.c
+        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  CMakeFiles/cmTC_d921c.dir/src.c.obj -o cmTC_d921c   && :
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_d921c.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
         
       exitCode: 0
   -
@@ -3265,8 +3001,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-bGEsMc"
-      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-bGEsMc"
+      source: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-qKcZ0q"
+      binary: "/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-qKcZ0q"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
@@ -3277,11 +3013,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-bGEsMc'
+        Change Dir: '/Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-qKcZ0q'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_47e0b
-        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_47e0b.dir/src.c.obj -c /Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-bGEsMc/src.c
-        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_47e0b.dir/src.c.obj -o cmTC_47e0b   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d14af
+        [1/2] /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_d14af.dir/src.c.obj -c /Users/bhavya/esp/FreeRTOS_Weather/build/CMakeFiles/CMakeScratch/TryCompile-qKcZ0q/src.c
+        [2/2] : && /Users/bhavya/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20250707/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_d14af.dir/src.c.obj -o cmTC_d14af   && :
         
       exitCode: 0
 ...

@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "main",
-    "project_version":    "9fbff1c-dirty",
+    "project_version":    "f93ae32-dirty",
     "project_path":       "/Users/bhavya/esp/FreeRTOS_Weather",
     "idf_path":           "/Users/bhavya/esp/esp-idf",
     "build_dir":          "/Users/bhavya/esp/FreeRTOS_Weather/build",
@@ -1205,8 +1205,8 @@
             "dir": "/Users/bhavya/esp/FreeRTOS_Weather/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
-            "reqs": [],
-            "priv_reqs": [ "esp_wifi", "esp_event", "esp_driver_gpio", "esp_driver_i2c", "chill-sam__ssd1306", "nvs_flash" ],
+            "reqs": [ "mbedtls" ],
+            "priv_reqs": [ "esp_wifi", "esp_event", "esp_driver_gpio", "esp_driver_i2c", "chill-sam__ssd1306", "nvs_flash", "esp_http_client" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/main/libmain.a",
@@ -1218,15 +1218,15 @@
             "target": "___idf_mbedtls",
             "prefix": "idf",
             "dir": "/Users/bhavya/esp/esp-idf/components/mbedtls",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_mbedtls",
             "reqs": [],
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/bhavya/esp/FreeRTOS_Weather/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/Users/bhavya/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/Users/bhavya/esp/FreeRTOS_Weather/build/x509_crt_bundle.S" ],
-            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
+            "file": "",
+            "sources": [],
+            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library" ]
         },
         "mqtt": {
             "alias": "idf::mqtt",
@@ -2521,7 +2521,7 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
+            "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library" ]
         },
         "mqtt": {
             "alias": "idf::mqtt",
@@ -2829,8 +2829,8 @@
             "prefix": "idf",
             "dir": "/Users/bhavya/esp/FreeRTOS_Weather/main",
             "lib": "__idf_main",
-            "reqs": [],
-            "priv_reqs": [ "esp_wifi", "esp_event", "esp_driver_gpio", "esp_driver_i2c", "chill-sam__ssd1306", "nvs_flash" ],
+            "reqs": [ "mbedtls" ],
+            "priv_reqs": [ "esp_wifi", "esp_event", "esp_driver_gpio", "esp_driver_i2c", "chill-sam__ssd1306", "nvs_flash", "esp_http_client" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": [ "." ]
