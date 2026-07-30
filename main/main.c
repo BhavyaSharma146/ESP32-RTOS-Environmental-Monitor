@@ -288,10 +288,10 @@ void app_main(void) {
     }
 
     // Create RTOS Tasks 
-    xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 1, NULL); 
-    xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 2, NULL);
-    xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 3, NULL); 
-    xTaskCreate(vWifiTask, "WifiTask", 4096, NULL, 4, NULL); 
+    xTaskCreate(vSensorTask, "Sensor Read", 3072, NULL, 4, NULL); 
+    xTaskCreate(vLoggerTask, "LoggerTask", 3072, NULL, 3, NULL);
+    xTaskCreate(vDisplayTask, "DisplayTask", 3072, NULL, 2, NULL); 
+    xTaskCreate(vWifiTask, "WifiTask", 4096, NULL, 1, NULL); 
 }
 
 void vLoggerTask(void *pvParameters) {
